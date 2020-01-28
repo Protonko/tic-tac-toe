@@ -1,0 +1,75 @@
+body {
+  font-family: Tahoma, sans-serif;
+}
+
+.crosszero {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #000;
+  margin: 0 auto 20px auto;
+  text-align: center;
+}
+
+form {
+  text-align: center;
+  margin-top: 10px;
+}
+
+form input[type="text"] {
+  padding: 3px;
+  outline: none;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.crosszero-wrapper {
+  text-align: center;
+}
+
+.crosszero-grid {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #000;
+  float: left;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 50px;
+  line-height: 45px;
+  transition: .2s all
+}
+
+.crosszero-grid:hover {
+  background: rgba(0, 0, 0, .1);
+}
+
+.text p {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+#status {
+  text-align: center;
+}
+
+.button-new {
+  margin-top: 10px;
+  padding: 5px;
+  background-color: #800000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.button-new:active {
+  background-color: #08cf44;
+}
+
+.clicked {
+  background-color: #08cf44;
+}
